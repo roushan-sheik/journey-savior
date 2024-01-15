@@ -18,7 +18,8 @@
 body {
   font-family: "Mulish", sans-serif;
 }
-/* Container Class Related Styles */
+/* Container Class Related Styles And Reused Classes */
+/* ===========> Starts <===========  */
 .container {
   max-width: 1440px;
   width: 81%;
@@ -39,3 +40,5 @@ body {
   font-size: 1rem;
   line-height: 26px; /* 162.5% */
 }
+/* Container Class Related Styles And Reused Classes */
+/* ===========> Ends <===========  */
