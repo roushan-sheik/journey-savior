@@ -1,2 +1,10 @@
 /* Mulish Font From Google */
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap");
+/* Reused Colors Variables */
+:root {
+  --white: #fff;
+  --black: #131318;
+  --primary_black: rgba(19, 19, 24, 0.702);
+  --secondary_black: #5a5a5d;
+  --primary_red: #ff5400;
+}
