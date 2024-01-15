@@ -8,3 +8,34 @@
   --secondary_black: #5a5a5d;
   --primary_red: #ff5400;
 }
+/* Universal Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body styles */
+body {
+  font-family: "Mulish", sans-serif;
+}
+/* Container Class Related Styles */
+.container {
+  max-width: 1440px;
+  width: 81%;
+  margin: 0 auto;
+}
+.btn {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #fff;
+  padding: 0.813rem 2.125;
+  border: none;
+  text-align: center;
+  border-radius: 8px;
+  background: #ff5400;
+}
+.para {
+  color: #5a5a5d;
+  font-size: 1rem;
+  line-height: 26px; /* 162.5% */
+}
