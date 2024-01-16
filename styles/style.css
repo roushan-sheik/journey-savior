@@ -521,5 +521,59 @@ footer {
   margin-bottom: 1.5rem;
 }
 /* =========> Ends <=========== */
-/* >>>>>>>>>> Deals and Discount Section Ssection Related Styles<<<<<<<<<< */
+/* >>>>>>>>>> Perfect Place Section Ssection Related Styles<<<<<<<<<< */
 /* =========> Starts <=========== */
+.perfect_place_parent {
+  display: flex;
+  margin-top: 15rem;
+  gap: 28px;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+.perfect_place_parent div {
+  flex: 1;
+}
+.perfect_place_content_box h1 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: var(--black);
+  margin-bottom: 1rem;
+}
+.perfect_place_content_box p {
+  font-size: 1rem;
+  color: var(--secondary_black);
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.perfect_place_content_box ul {
+  padding-left: 1.5rem;
+}
+.perfect_place_content_box ul li {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.perfect_place_content_box button {
+  margin-top: 1rem;
+}
+.perfect_place_video {
+  /* border: 1px solid blue; */
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+}
+video {
+  width: 100%;
+  border-radius: 16px;
+}
+.perfect_place_video h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--white);
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 36px;
+}

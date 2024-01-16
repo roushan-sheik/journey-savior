@@ -249,7 +249,28 @@
   }
 }
 /* =========> Ends <=========== */
-/* Section Responsive Styles */
+/*  Simple Perfect Place Section Responsive Styles */
+/* =========> Starts <=========== */
+@media screen and (max-width: 600px) {
+  .perfect_place_parent {
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 24px;
+
+    /* border: 2px solid red; */
+  }
+  .perfect_place_content_box h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .perfect_place_content_box p {
+    font-size: 14px;
+  }
+  .perfect_place_content_box ul li {
+    font-size: 14px;
+  }
+}
+/* =========> Ends <=========== */
 /* =========> Starts <=========== */
 @media screen and (max-width: 600px) {
 }
