@@ -58,3 +58,35 @@
   }
 }
 /* =========> Ends <=========== */
+/* Popular Tours Section Responsive Styles */
+/* =========> Starts <=========== */
+
+@media screen and (max-width: 600px) {
+  .popular_tours_parent {
+    flex-direction: column;
+    margin: 24px 0;
+    gap: 24px;
+  }
+  .popular_tours_content_box > h2 {
+    font-size: 20px;
+  }
+  .popular_tours_content_box > p {
+    font-size: 14px;
+  }
+  .popular_tours_img_box img {
+    height: 342px;
+    flex-shrink: 0;
+  }
+}
+/* =========> Ends <=========== */
+/* Section Responsive Styles */
+/* =========> Starts <=========== */
+@media screen and (max-width: 600px) {
+}
+/* =========> Ends <=========== */
+
+/* Section Responsive Styles */
+/* =========> Starts <=========== */
+@media screen and (max-width: 600px) {
+}
+/* =========> Ends <=========== */
