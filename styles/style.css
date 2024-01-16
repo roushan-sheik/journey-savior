@@ -173,3 +173,40 @@ footer {
 }
 /* >>>>>>>>>>>Banner Related Styles<<<<<<<<<< */
 /* =========> Ends <=========== */
+/* >>>>>>>>>>>Popular Tours Related Styles<<<<<<<<<< */
+/* =========> Starts <=========== */
+.popular_tours_parent {
+  display: flex;
+  margin: 6rem 0;
+  gap: 3rem;
+}
+.popular_tours_parent div {
+  flex: 1;
+}
+.popular_tours_content_box {
+  overflow: hidden;
+}
+.popular_tours_content_box > h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--black);
+}
+.popular_tours_content_box > p {
+  color: var(--primary_black);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 2rem 0;
+}
+.popular_tours_content_box ul {
+  padding-left: 2rem;
+}
+.popular_tours_content_box ul li {
+  color: var(--primary_black);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-bottom: 1rem;
+}
+.popular_tours_img_box img {
+  width: 100%;
+  height: 100%;
+}
