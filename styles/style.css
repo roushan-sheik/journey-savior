@@ -453,8 +453,28 @@ footer {
   align-items: center;
   padding-right: 3.6rem;
 }
+#banner_2 {
+  display: flex;
+  justify-content: start;
+  padding-left: 3.6rem;
+}
 #banner_1 {
   background: url("../images/discount-1.png"), lightgray 50% / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#banner_2 {
+  background: url("../images/discount-2.png"), lightgray 50% / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#banner_3 {
+  background: url("../images/discount-1.png"), lightgray 50% / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 .discount_cart {
   width: 579px;
