@@ -41,6 +41,9 @@ body {
   font-size: 1rem;
   line-height: 26px; /* 162.5% */
 }
+.hidden {
+  display: none;
+}
 /* Container Class Related Styles And Reused Classes */
 /* ===========> Ends <===========  */
 /* Nav Related Styles Start*/
@@ -75,4 +78,7 @@ body {
 }
 .nav_logo_box .savior {
   color: var(--primary_red);
+}
+.nav_menu_box > .bars {
+  display: none;
 }

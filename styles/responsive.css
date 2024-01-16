@@ -1,0 +1,19 @@
+/* Responsive Styles for Header Navigation Menu */
+/* =========> Starts <=========== */
+@media screen and (max-width: 600px) {
+  .nav_menu_box > ul {
+    display: none;
+  }
+  .nav_menu_box > .bars {
+    display: block;
+    font-size: 1.5rem;
+  }
+  .nav_logo_box h2 {
+    font-size: 1.344rem;
+  }
+  .nav_logo_box img {
+    width: 1.75rem;
+    height: 2.063rem;
+  }
+}
+/* =========> Ends <=========== */
