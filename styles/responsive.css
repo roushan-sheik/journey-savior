@@ -1,6 +1,9 @@
 /* Responsive Styles for Header Navigation Menu */
 /* =========> Starts <=========== */
 @media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
   .nav_menu_box > ul {
     display: none;
   }
@@ -14,6 +17,44 @@
   .nav_logo_box img {
     width: 1.75rem;
     height: 2.063rem;
+  }
+}
+/* =========> Ends <=========== */
+/* Banner Section Responsive Styles */
+/* =========> Starts <=========== */
+
+@media screen and (max-width: 600px) {
+  .banner {
+    margin-top: 3.125rem;
+    padding: 1.9rem 1rem;
+  }
+  .banner_input_box {
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 8px;
+    padding: 0.6rem;
+  }
+  .banner_content_box h1 {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+  }
+  .banner_content_box p {
+    font-size: 0.8rem;
+    line-height: 21px;
+    margin-bottom: 32px;
+  }
+  .banner_input_box {
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .banner_input_box {
+    width: 100%;
+  }
+  .banner_input_box div input {
+    height: 52px;
+  }
+  .find_now {
+    justify-content: center;
   }
 }
 /* =========> Ends <=========== */

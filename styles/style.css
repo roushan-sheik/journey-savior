@@ -18,6 +18,9 @@
 body {
   font-family: "Mulish", sans-serif;
 }
+footer {
+  min-height: 40vh;
+}
 
 /* Container Class Related Styles And Reused Classes */
 /* ===========> Starts <===========  */
@@ -44,9 +47,9 @@ body {
 .hidden {
   display: none;
 }
-/* Container Class Related Styles And Reused Classes */
-/* ===========> Ends <===========  */
-/* Nav Related Styles Start*/
+/* >>>>>>>>>>>> Container Class Related Styles And Reused Classes <<<<<<<<<<< */
+/* Nav Related Styles */
+/* ===========> Starts <===========  */
 .container nav {
   display: flex;
   justify-content: space-between;
@@ -82,7 +85,10 @@ body {
 .nav_menu_box > .bars {
   display: none;
 }
-/* Banner Related Styles */
+/* =========> Ends <=========== */
+/* >>>>>>>>>>>Banner Related Styles<<<<<<<<<< */
+/* =========> Starts <=========== */
+
 .banner {
   background: linear-gradient(
       180deg,
@@ -165,3 +171,5 @@ body {
   font-weight: 700;
   color: var(--white);
 }
+/* >>>>>>>>>>>Banner Related Styles<<<<<<<<<< */
+/* =========> Ends <=========== */
