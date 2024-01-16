@@ -345,5 +345,76 @@ footer {
   background-repeat: no-repeat;
 }
 /* =========> Ends <=========== */
-/* >>>>>>>>>>>section Related Styles<<<<<<<<<< */
+/* >>>>>>>>>> Why Choose Us Ssection Related Styles<<<<<<<<<< */
 /* =========> Starts <=========== */
+.content-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 6rem;
+}
+.content-box h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--black);
+  text-align: center;
+}
+.content-box p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  margin-top: 1.4rem;
+}
+.hotels_and_service {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+}
+.hotel,
+.best_price_parent .best_price {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 2rem;
+}
+.service {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 2rem;
+}
+.hotel img,
+.service img,
+.best_price img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 2rem;
+}
+.hotel h3,
+.service h3,
+.best_price h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--black);
+  margin-bottom: 1rem;
+}
+.hotel p,
+.service p,
+.best_price p {
+  font-size: 1rem;
+  color: var(--secondary_black);
+  line-height: 1.5rem;
+}
+
+.best_price_parent {
+  position: relative;
+  width: 100%;
+}
+.best_price_parent .best_price {
+  width: 48.5%;
+  position: relative;
+
+  left: 50%;
+  transform: translate(-50%);
+}
