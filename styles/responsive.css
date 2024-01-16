@@ -136,6 +136,45 @@
 }
 /* =========> Ends <=========== */
 
+/* Why Choose Us Section Responsive Styles */
+/* =========> Starts <=========== */
+@media screen and (max-width: 600px) {
+  .content-box {
+    margin-top: 1.5rem;
+  }
+  .content-box h1 {
+    font-size: 1.25rem;
+  }
+  .content-box p {
+    font-size: 0.875rem;
+    margin-top: 1rem;
+  }
+  .hotels_and_service {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .hotel img,
+  .service img,
+  .best_price img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 1rem;
+  }
+  .hotel p,
+  .service p,
+  .best_price p {
+    font-size: 0.875rem;
+  }
+  .best_price_parent .best_price {
+    width: 100%;
+    position: static;
+    left: 0%;
+    transform: translate(0%);
+  }
+}
+/* =========> Ends <=========== */
 /* Section Responsive Styles */
 /* =========> Starts <=========== */
 @media screen and (max-width: 600px) {
