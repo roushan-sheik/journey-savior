@@ -578,12 +578,12 @@ video {
   line-height: 36px;
 }
 /* =========> Ends <=========== */
-/* >>>>>>>>>> Newsletter Section Ssection Related Styles<<<<<<<<<< */
+/* >>>>>>>>>> Newsletter Section   Related Styles<<<<<<<<<< */
 /* =========> Starts <=========== */
 .newsletter_parent {
   display: flex;
   gap: 1.5rem;
-  margin: 6.25rem 0;
+  margin-top: 6.25rem;
 }
 .newsletter_parent div {
   flex: 1;
@@ -646,4 +646,64 @@ video {
   color: var(--white);
   font-size: 2rem;
   font-weight: 800;
+}
+/* =========> Ends <=========== */
+/* >>>>>>>>>> Footer Section Related Styles<<<<<<<<<< */
+/* =========> Starts <=========== */
+footer {
+  background: rgba(19, 19, 24, 0.05);
+  padding: 6rem 0;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 6rem;
+}
+.footer_parent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer_title {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.footer_title img {
+  width: 40px;
+  height: 46.673px;
+}
+.footer_title h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--black);
+  margin-bottom: 1rem;
+}
+.footer_title h2 span {
+  color: var(--primary_red);
+}
+.footer_title p {
+  color: var(--secondary_black);
+  text-align: center;
+  font-size: 1rem;
+  line-height: 26px; /* 162.5% */
+}
+.social_media {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  margin-bottom: 3rem;
+  color: rgba(255, 255, 255, 0.15);
+}
+
+.copy_right {
+  margin-top: 3rem;
+  text-align: center;
+}
+.copy_right span {
+  color: var(--black);
+  font-size: 1rem;
+  font-weight: 300;
 }
