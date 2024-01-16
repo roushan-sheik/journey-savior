@@ -18,6 +18,7 @@
 body {
   font-family: "Mulish", sans-serif;
 }
+
 /* Container Class Related Styles And Reused Classes */
 /* ===========> Starts <===========  */
 .container {
@@ -42,3 +43,36 @@ body {
 }
 /* Container Class Related Styles And Reused Classes */
 /* ===========> Ends <===========  */
+/* Nav Related Styles Start*/
+.container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3.25rem;
+}
+.nav_menu_box ul {
+  display: flex;
+  gap: 2.75rem;
+}
+.nav_menu_box ul li {
+  list-style: none;
+}
+.nav_menu_box ul li a {
+  text-decoration: none;
+  color: #424247;
+  text-align: center;
+  font-size: 1.12rem;
+}
+.nav_logo_box {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+.nav_logo_box h2 {
+  color: var(--black);
+  font-weight: 800;
+  font-size: 2.25rem;
+}
+.nav_logo_box .savior {
+  color: var(--primary_red);
+}
