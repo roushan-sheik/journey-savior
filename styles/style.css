@@ -97,6 +97,8 @@ footer {
     ),
     url("../images/banner.png");
   background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-top: 3.125rem;
   padding: 6.625rem 8rem;
   display: flex;
@@ -195,7 +197,7 @@ footer {
   color: var(--primary_black);
   font-size: 1rem;
   line-height: 1.5rem;
-  margin: 2rem 0;
+  margin: 1.78rem 0;
 }
 .popular_tours_content_box ul {
   padding-left: 2rem;
@@ -206,7 +208,12 @@ footer {
   line-height: 1.5rem;
   padding-bottom: 1rem;
 }
+.popular_tours_img_box {
+  object-fit: cover;
+}
 .popular_tours_img_box img {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
+  border-radius: 16px;
+  height: 34.5rem;
 }
