@@ -217,3 +217,130 @@ footer {
   border-radius: 16px;
   height: 34.5rem;
 }
+/* =========> Ends <=========== */
+/* >>>>>>>>>>>Choose your destination section Related Styles<<<<<<<<<< */
+/* =========> Starts <=========== */
+.destination_content_box h2 {
+  color: var(--black);
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.destination_content_box p {
+  color: var(--primary_black);
+  text-align: center;
+  font-size: 1rem;
+  line-height: 26px;
+  margin-bottom: 3rem;
+  padding: 0 8rem;
+}
+/* img styles */
+.destination_img_box {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.destination_img_box div {
+  object-fit: cover;
+  height: 300px;
+  position: relative;
+}
+
+.destination_img_box div span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: var(--white);
+}
+
+.dest_1 {
+  grid-column: 1 / span 6;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../images/maldivs.png"), lightgray 50% / cover no-repeat;
+  border-radius: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.dest_2 {
+  grid-column: 7 / span 6;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../images/indonesia.png"), lightgray 50% / cover no-repeat;
+  border-radius: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.dest_3 {
+  grid-column: 1 / span 4;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../images/srilanka.png"), lightgray 50% / cover no-repeat;
+  border-radius: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.dest_4 {
+  grid-column: 5 / span 5;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../images/north\ america.png"), lightgray 50% / cover no-repeat;
+  border-radius: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.dest_5 {
+  grid-column: 10 / span 3;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../images/kashmir.png"), lightgray 50% / cover no-repeat;
+  border-radius: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.dest_6 {
+  grid-column: 1 / span 5;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../images/bangladesh.png"), lightgray 50% / cover no-repeat;
+  border-radius: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.dest_7 {
+  grid-column: 6 / span 7;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../images/bandorban.png"), lightgray 50% / cover no-repeat;
+  border-radius: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
