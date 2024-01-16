@@ -70,6 +70,9 @@ footer {
   text-align: center;
   font-size: 1.12rem;
 }
+#Home_Menu {
+  color: var(--primary_red);
+}
 .nav_logo_box {
   display: flex;
   align-items: center;
@@ -729,4 +732,7 @@ footer {
   border-top: 2px solid rgba(19, 19, 24, 0.1);
   width: 770px;
   display: inline-block;
+}
+.f-p {
+  text-align: center;
 }
