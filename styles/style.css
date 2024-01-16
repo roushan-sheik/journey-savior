@@ -482,13 +482,14 @@ footer {
 }
 .discount_cart {
   width: 579px;
-  height: 389px;
+  /* height: 389px; */
   border-radius: 16px;
   border: 2px solid #fff;
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(2.5px);
-  padding: 5rem 3.2rem;
+  padding: 2rem 3.2rem;
 }
+
 .cart_header {
   display: flex;
   gap: 1.5rem;
