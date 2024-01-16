@@ -271,6 +271,28 @@
   }
 }
 /* =========> Ends <=========== */
+/*  Reviews Section Responsive Styles */
+/* =========> Starts <=========== */
+.reviews_parent {
+  margin: 3rem 0;
+}
+.review_box_parent {
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.reviews_content_box h2 {
+  font-size: 1.5rem;
+}
+.reviews_content_box p {
+  font-size: 14px;
+}
+.review_content_box h2 {
+  font-size: 1rem;
+}
+.review_content_box h3 {
+  font-size: 14px;
+}
+/* =========> Ends <=========== */
 /*  News letter Section Responsive Styles */
 /* =========> Starts <=========== */
 @media screen and (max-width: 600px) {
