@@ -82,3 +82,86 @@ body {
 .nav_menu_box > .bars {
   display: none;
 }
+/* Banner Related Styles */
+.banner {
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../images/banner.png");
+  background-position: center center;
+  margin-top: 3.125rem;
+  padding: 6.625rem 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+}
+.banner_content_box h1 {
+  color: var(--white);
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.banner_content_box p {
+  font-size: 1rem;
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 48px;
+}
+.banner_input_box {
+  display: flex;
+  gap: 1.5rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 1rem;
+}
+.banner_input_box div {
+  flex: 1;
+  background-color: var(--white);
+  height: 52px;
+  border-radius: 8px;
+  position: relative;
+  /* border: 1px solid red; */
+}
+.banner_input_box div input {
+  border: none;
+  outline: none;
+  height: 100%;
+  border-radius: 8px;
+}
+.banner_input_box div input::placeholder {
+  /*styles here*/
+  padding-left: 0.8rem;
+  color: var(--primary_black);
+}
+.when,
+.type {
+  display: flex;
+  align-items: center;
+}
+.fa-angle-down {
+  position: absolute;
+  right: 1rem;
+}
+.banner_input_box > .find_now {
+  display: flex;
+  background-color: var(--primary_red);
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.find_now .fa-magnifying-glass {
+  font-size: 1.4rem;
+  color: var(--white);
+}
+.find_btn {
+  border: none;
+  outline: none;
+  background-color: var(--primary_red);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--white);
+}
