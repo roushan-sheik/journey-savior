@@ -577,3 +577,73 @@ video {
   text-align: center;
   line-height: 36px;
 }
+/* =========> Ends <=========== */
+/* >>>>>>>>>> Newsletter Section Ssection Related Styles<<<<<<<<<< */
+/* =========> Starts <=========== */
+.newsletter_parent {
+  display: flex;
+  gap: 1.5rem;
+  margin: 6.25rem 0;
+}
+.newsletter_parent div {
+  flex: 1;
+}
+.newsletter_form {
+  padding: 2.5rem;
+  border-radius: 16px;
+  border: 1px solid var(--primary_red);
+}
+.newsletter_form h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--black);
+  margin-bottom: 1rem;
+}
+.newsletter_form p {
+  font-size: 1rem;
+  color: var(--secondary_black);
+  line-height: 1.5rem;
+  margin-bottom: 3rem;
+}
+.newsletter_form form > input {
+  padding: 1rem 1.4rem;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  width: 100%;
+  margin-bottom: 16px;
+}
+.newsletter_form form > button {
+  width: 100%;
+}
+.newsletter_img_box {
+  position: relative;
+}
+.newsletter_img_box img {
+  width: 100%;
+  height: 100%;
+}
+.save_card {
+  position: absolute;
+  border-radius: 16px;
+  background: var(--primary_red);
+  padding: 1rem;
+  transform: rotate(-19.628deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  bottom: 43px;
+  right: 6px;
+}
+.save_card span {
+  color: var(--white);
+  text-align: center;
+  font-size: 1.5rem;
+}
+.save_card p {
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: 800;
+}
