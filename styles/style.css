@@ -525,7 +525,7 @@ footer {
 /* =========> Starts <=========== */
 .perfect_place_parent {
   display: flex;
-  margin-top: 15rem;
+  margin-top: 7rem;
   gap: 28px;
   align-items: center;
   /* border: 2px solid red; */
@@ -647,6 +647,12 @@ video {
   font-size: 2rem;
   font-weight: 800;
 }
+.btn_parent {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* =========> Ends <=========== */
 /* >>>>>>>>>> Footer Section Related Styles<<<<<<<<<< */
 /* =========> Starts <=========== */
@@ -656,11 +662,16 @@ footer {
   max-width: 1440px;
   margin: 0 auto;
   margin-top: 6rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 .footer_parent {
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
 }
 .footer_title {
   display: flex;
@@ -698,6 +709,10 @@ footer {
   color: rgba(255, 255, 255, 0.15);
 }
 
+.social_media a {
+  text-decoration: none;
+  color: black;
+}
 .copy_right {
   margin-top: 3rem;
   text-align: center;
@@ -706,4 +721,12 @@ footer {
   color: var(--black);
   font-size: 1rem;
   font-weight: 300;
+}
+.footer_para {
+  padding: 0 7rem;
+}
+.hr-line {
+  border-top: 2px solid rgba(19, 19, 24, 0.1);
+  width: 770px;
+  display: inline-block;
 }

@@ -181,7 +181,7 @@
   .btn {
     font-size: 18px;
     font-weight: 700;
-    padding: 8px 20px;
+    padding: 10px 20px;
   }
   .discount_banner {
     padding: 1rem;
@@ -288,6 +288,16 @@
     line-height: 24px;
     margin-bottom: 16px;
   }
+  .save_card {
+    bottom: 32px;
+    right: 3px;
+  }
+  .save_card span {
+    font-size: 16px;
+  }
+  .save_card p {
+    font-size: 21px;
+  }
 }
 /* =========> Ends <=========== */
 /*  Footer Section Responsive Styles */
@@ -302,6 +312,8 @@
   }
   .footer_title h2 {
     font-size: 1.2rem;
+    align-items: center;
+    justify-content: center;
   }
   .footer_title p {
     font-size: 14px;
