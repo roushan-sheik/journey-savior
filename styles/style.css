@@ -745,6 +745,7 @@ footer {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  overflow:hidden;
 }
 .footer_title {
   display: flex;
@@ -800,9 +801,10 @@ footer {
 }
 .hr-line {
   border-top: 2px solid rgba(19, 19, 24, 0.1);
-  width: 770px;
+  width: 40%;
   display: inline-block;
 }
 .f-p {
   text-align: center;
+  
 }
